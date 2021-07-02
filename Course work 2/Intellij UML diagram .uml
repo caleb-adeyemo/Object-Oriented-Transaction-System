@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/caleb/IdeaProjects/Course work 2/src</OriginalElement>
+  <nodes>
+    <node x="99.25" y="0.0">Customer</node>
+    <node x="0.0" y="942.0">InsufficientBalanceException</node>
+    <node x="626.0" y="942.0">InvalidProductException</node>
+    <node x="118.25" y="493.0">Product</node>
+    <node x="324.0" y="942.0">InvalidCustomerException</node>
+    <node x="209.0" y="337.5">StudentCustomer</node>
+    <node x="217.0" y="753.0">Drinks</node>
+    <node x="0.0" y="326.0">StaffCustomer</node>
+    <node x="475.0" y="-97.0">SnackShop</node>
+    <node x="482.0" y="493.0">Main</node>
+    <node x="0.0" y="753.0">Food</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Drinks" target="Product" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="327.0" y="728.0" />
+      <point x="212.75" y="728.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="StaffCustomer" target="Customer" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="94.5" y="301.0" />
+      <point x="199.25" y="301.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="StudentCustomer" target="Customer" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="304.0" y="301.0" />
+      <point x="199.25" y="301.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="Food" target="Product" relationship="GENERALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="98.5" y="728.0" />
+      <point x="212.75" y="728.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="463.0" y="598.0" />
+  <SelectedNodes>
+    <node>SnackShop</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
